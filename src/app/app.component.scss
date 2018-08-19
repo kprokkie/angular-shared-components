@@ -1,0 +1,23 @@
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    z-index: 1;
+    position: relative;
+    background: #fff;
+
+    h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+}
+
+.app-content {
+    padding: 1rem;
+    
+    .link {
+        cursor: pointer;
+    }
+}
