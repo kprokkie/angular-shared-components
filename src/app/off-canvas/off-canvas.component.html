@@ -1,0 +1,5 @@
+<div class="shared-off-canvas" *ngIf="isToggle" [@slideInOut]>
+  <h4>off-canvas works!</h4>
+  <ng-content></ng-content>
+  <a class="btn-floating pulse" (click)="closeCanvas()"><i class="material-icons">close</i></a>
+</div>

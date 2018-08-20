@@ -1,0 +1,18 @@
+.shared-off-canvas {
+    position: relative;
+    padding: 1rem;
+    margin: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+
+    h4 {
+        margin: 0;
+    }
+
+    .btn-floating {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+    }
+}

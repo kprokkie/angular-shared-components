@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-shared-components';
+  title = 'Angular Reusable Components';
+  isToggle: boolean = false;
+
+  toggleCanvas(): void {
+    this.isToggle = !this.isToggle;
+  }
+
+  toggleListener(bool): void {
+    this.isToggle = bool;
+  }
+
 }
